@@ -21,7 +21,7 @@ Add your token in ```teleApi``` struct in main func
   }
  ```
 
-Handle incoming messages in ```SendMessage``` method in **bot.go** file
+Handle incoming messages in ```SendMessage``` method in **gopherbot.go** file
 
 ```go
   switch strings.ToLower(text) {
@@ -46,12 +46,12 @@ Handle incoming messages in ```SendMessage``` method in **bot.go** file
 Then run in terminal
 
 ```
-go run bot.go
+go run gopherbot.go
 ```
 
 or build and run binaries
 
 ```
-go build bot.go
+go build gopherbot.go
 ```
 See how it works (Telegram should be installed) [http://telegram.me/gopherBot](http://telegram.me/gopherBot)
