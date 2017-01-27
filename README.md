@@ -2,7 +2,7 @@
 
 Simple Telegram bot go lang version example, long polling method used.
 
-![](https://img.shields.io/badge/%20release%20version-1.0-blue.svg)
+![](https://img.shields.io/badge/release%20version-1.0.1-blue.svg) ![](https://img.shields.io/dub/l/vibe-d.svg)
 
 First read [official bot docs ](https://core.telegram.org/bots/api/)
 
