@@ -7,6 +7,7 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	"fmt"
 	"log"
 	"net/http"
 	"strconv"
@@ -145,6 +146,8 @@ func (t *TeleAPI) SendMessage(chatID int64, name string, text string) {
 }
 
 func main() {
+	fmt.Println("Running...")
+
 	var teleApi = &TeleAPI{
 		apiUrl:  "https://api.telegram.org/bot",
 		token:   "<YOUR TOKEN>",
